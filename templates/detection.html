@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link rel="stylesheet" href="../static/css/detection.css">
+	<title>detection Diabetic Retinopathy</title>
+</head>
+<body>
+	<h1>Detect and classify Diabetic Retinopathy</h1>
+	<div class="image">
+	<div class="container">
+		<input type="file" id="file" accept="image/*" hidden>
+		<div class="img-area" data-img="">
+			<header>Drag & Drop to Upload image</header>
+			<i class='bx bxs-cloud-upload icon'></i>
+			<h3>Upload Image</h3>
+			<!-- <p>Image size must be less than <span>2MB</span></p> -->
+		</div>
+		<button class="select-image">Select Image</button>
+		<a class="detect-image" href="./DetectionRes.html">Detect</a> 
+	</div>
+</div>
+	<script src="../static/js/Detection.js"></script>
+</body>
+</html>
